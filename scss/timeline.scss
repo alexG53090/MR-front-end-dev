@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Navigation Styling
+
+.nav-bar {
+  height: 75px;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  font-family: "verdana"
+}
+
+.nav-components {
+  list-style: none;
+}
+
+.nav-component {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+// Search Bar Styling
+
+
+
+// Post Styling
+
+.post {
+  height: 175px;
+  background-color: gray;
+  width:100%;
+}
+
+.profile-img-placeholder {
+  height: 40px;
+  width: 40px;
+}
