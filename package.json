@@ -1,0 +1,19 @@
+{
+  "name": "front-end",
+  "version": "0.0.1",
+  "description": "Repo for front end application code",
+  "main": "client.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MountainRangers/front-end.git"
+  },
+  "author": "Alex Bennett <alexandergraybennett@gmail.com> (http://thedope.agency)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MountainRangers/front-end/issues"
+  },
+  "homepage": "https://github.com/MountainRangers/front-end#readme"
+}
