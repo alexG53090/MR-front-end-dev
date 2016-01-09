@@ -1,8 +1,8 @@
 # front-end
-Repo for front end application code
+Development Repo for front end application code
 
 # Deployed Dev URL:
-https://mountain-rangers.firebaseapp.com/
+https://trailmix.firebaseapp.com/
 
 ## Run Locally (Work-Flow)
 
@@ -15,6 +15,9 @@ https://mountain-rangers.firebaseapp.com/
 ```
 
 ### ToDo's
-[] get all the markup
+[ ] finish all the markup
+[ ] finish all the formatting
+[ ] styling and UI
+[ ] client side js
 
 [![ZenHub] (https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)] (https://zenhub.io)
