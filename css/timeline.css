@@ -34,6 +34,15 @@
 .filter-component {
   flex-direction: row; }
 
+.drop-down {
+  height: 80px;
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%; }
+
 .tag-icons {
   list-style: none; }
 
@@ -45,15 +54,6 @@
   display: inline-block;
   flex-direction: row;
   flex-wrap: wrap; }
-
-.drop-down {
-  height: 80px;
-  background-color: #ededed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 100%; }
 
 .down-arrow {
   border: none;
@@ -69,7 +69,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "verdana"; }
+  font-family: "verdana";
+  -webkit-box-shadow: 0px 1px 13px 1px rgba(247, 247, 247, 0.56);
+  -moz-box-shadow: 0px 1px 13px 1px rgba(247, 247, 247, 0.56);
+  box-shadow: 0px 1px 13px 1px rgba(247, 247, 247, 0.56); }
 
 .profile-img-placeholder {
   height: 90px;

@@ -17,4 +17,13 @@ input, textarea {
   height: 1.5em;
   margin: 20px; }
 
+.tag-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 10%; }
+
+.tag-toggle {
+  flex-direction: row; }
+
 /*# sourceMappingURL=blogCreate.css.map */
