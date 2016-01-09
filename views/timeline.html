@@ -6,31 +6,31 @@
     <title></title>
     <link rel='stylesheet' href='../css/main.css' />
     <link rel='stylesheet' href='../css/timeline.css' />
-    <script src='js/client.js'></script>
-    <script src='js/timeline.js'></script>
+    <script src='../js/client.js'></script>
+    <script src='../js/timeline.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   </head>
   <body>
     <nav class='nav-bar'>
-      <ul class='nav-components'>
-        <li class='nav-component'><a href='./timeline.html'>Home</a></li>
-        <li class='nav-component'><h1>Timeline</h1></li>
-        <li class='nav-component'><a href='./editor.html'>Add Post</a></li>
-        <li class='nav-component'><a href='./profile.html'>Profile</a></li>
-      <ul>
+      <div class='nav-component'><a href='./timeline.html'>Home</a></div>
+      <div class='nav-component'><h1>Timeline</h1></div>
+      <div class='nav-component'><a href='./editor.html'>Add Post</a></div>
+      <div class='nav-component'><a href='./profile.html'>Profile</a></div>
     </nav>
     <div id='filter-bar' class='filter'>
-      <p>Filter by category</p>
-      <img scr='path/to/img' class='down-arrow' />
+      <div class='filter-components'>
+        <p class='filter-component'>Filter by category</p>
+        <button class='down-arrow filter-component'>
+          <img src='../public/down_arrow.png' class='icon' />
+        </button>
+      </div>
       <div id='filter-drop-down' class='drop-down'>
-        <ul id='tag-icons' class='icons'>
-          <li class='tag-icon'><img src='path/to/icon'/></li>
-          <li class='tag-icon'><img src='path/to/icon'/></li>
-          <li class='tag-icon'><img src='path/to/icon'/></li>
-          <li class='tag-icon'><img src='path/to/icon'/></li>
-          <li class='tag-icon'><img src='path/to/icon'/></li>
-          <li class='tag-icon'><img src='path/to/icon'/></li>
-        </ul>
+        <div class='tag-icon'><img src='../public/gem.png' class='icon'/></div>
+        <div class='tag-icon'><img src='../public/gem.png' class='icon'/></div>
+        <div class='tag-icon'><img src='../public/gem.png' class='icon'/></div>
+        <div class='tag-icon'><img src='../public/gem.png' class='icon'/></div>
+        <div class='tag-icon'><img src='../public/gem.png' class='icon'/></div>
+        <div class='tag-icon'><img src='../public/gem.png' class='icon'/></div>
       </div>
     </div>
     <div class='time-line'>

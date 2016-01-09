@@ -3,10 +3,14 @@
   width: 100%;
   background-color: gray;
   color: white;
-  font-family: "verdana"; }
+  font-family: "verdana";
+  display: flex;
+  align-items: center; }
 
 .nav-components {
-  list-style: none; }
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .nav-component {
   display: inline-block;
@@ -15,18 +19,43 @@
 
 .filter {
   width: 100%;
-  height: 150px;
-  background-color: red; }
+  height: 100px;
+  background-color: #ededed; }
 
 .tag-icons {
   list-style: none; }
 
+.icon {
+  height: 40px;
+  width: 40px; }
+
 .tag-icon {
-  display: inline-block; }
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.drop-down {
+  height: 200px;
+  background-color: #ededed;
+  display: flex;
+  align-items: center; }
+
+.down-arrow {
+  border: none;
+  background: transparent; }
+
+.hidden {
+  display: none; }
+
+.filter-components {
+  display: flex; }
+
+.filter-component {
+  flex-direction: row; }
 
 .post {
   height: 175px;
-  background-color: gray;
+  background-color: #c1c1c1;
   width: 100%; }
 
 .profile-img-placeholder {
