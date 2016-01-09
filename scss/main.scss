@@ -54,3 +54,13 @@ table {
   width: 100%;
   background-color: gray;
 }
+
+// Handmade grid
+
+.third {
+  flex-direction: row;
+  width: 33.3%;
+}
+.half {
+  width:50%;
+}

@@ -23,7 +23,8 @@
   height: 60px;
   background-color: #ededed;
   z-index: 99;
-  justify-content: center; }
+  justify-content: center;
+  font-family: "verdana"; }
 
 .filter-components {
   display: flex;
@@ -63,15 +64,18 @@
 
 .post {
   height: 175px;
-  background-color: #c1c1c1;
+  background-color: white;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  font-family: "verdana"; }
 
-.third {
-  flex-direction: row;
-  width: 25%; }
+.filter-call {
+  text-align: left; }
+
+.down-arrow {
+  text-align: right; }
 
 .profile-img-placeholder {
   height: 40px;
