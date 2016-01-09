@@ -1,6 +1,3 @@
-var createProfile = function(){
+function createProfile(){
   console.log("I'm the js for create profile view")
 }
-
-
-module.exports = createProfile;

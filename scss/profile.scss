@@ -1,1 +1,24 @@
 // scss for profile view
+body {
+  // background-color: #ededed;
+}
+.profile-header {
+  display: flex;
+  font-family: "Verdana";
+  height: 150px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.profile-user-photo {
+  flex-direction: row;
+}
+.profile-user-info {
+  flex-direction: row;
+  text-align: left;
+  padding: 3%;
+}
+.profile-img {
+  height: 150px;
+  width: 150px;
+}
