@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Write Post</title>
     <link rel='stylesheet' href='../css/main.css' />
     <link rel='stylesheet' href='../css/createProfile.css' />
     <script src='js/client.js'></script>
@@ -11,28 +11,41 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   </head>
   <body>
+
+    <!-- nav -->
     <nav class='nav-bar'>
       <div class='nav-component'><a href='./timeline.html'>Home</a></div>
-      <div class='nav-component'><h1>Timeline</h1></div>
+      <div class='nav-component'><h1>Write a Post</h1></div>
       <div class='nav-component'><a href='./editor.html'>Add Post</a></div>
       <div class='nav-component'><a href='./profile.html'>Profile</a></div>
     </nav>
+
+    <!-- Page call to action -->
     <h1 class='call-to-edit'>Tell the world about your hike</h1>
+
+    <!-- Create a post form -->
     <form class='create-blog-form' action='/submitblog' method="POST">
       <label>Title</label>
       <input name='title' type='text' placeholder="Title">
       <label>Location</label>
       <input name='location' type='text' placeholder="location">
       <label>Description</label>
-      <textarea name='description' rows="4" cols="50">
+      <textarea name='description' rows="10" cols="50">
         Share your hiking experience!
       </textarea>
+
       <div class='tag-container'>
-        <input type="radio" name="gender" value="male" checked>Adventerous
-        <input type="radio" name="gender" value="female">Awesome
-        <input type="radio" name="gender" value="other">Relaxing
+        <input type="radio" name="adventerous" class='tag-toggle'>
+        <input type="radio" name="Awesome" class='tag-toggle'>
+        <input type="radio" name="Relaxing" class='tag-toggle'>
       </div>
       <input type='submit' value='submit'>
     </form>
+
+    <!-- Footer -->
+    <footer class='app-footer'>
+      <p>Copyright, Mountain Rangers 2015. All rights reserved.</p>
+    </footer>
+
   </body>
 </html>
