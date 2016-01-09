@@ -17,5 +17,22 @@
       <div class='nav-component'><a href='./editor.html'>Add Post</a></div>
       <div class='nav-component'><a href='./profile.html'>Profile</a></div>
     </nav>
+    <h1 class='call-to-edit'>Tell the world about your hike</h1>
+    <form class='create-blog-form' action='/submitblog' method="POST">
+      <label>Title</label>
+      <input name='title' type='text' placeholder="Title">
+      <label>Location</label>
+      <input name='location' type='text' placeholder="location">
+      <label>Description</label>
+      <textarea name='description' rows="4" cols="50">
+        Share your hiking experience!
+      </textarea>
+      <div class='tag-container'>
+        <input type="radio" name="gender" value="male" checked>Adventerous
+        <input type="radio" name="gender" value="female">Awesome
+        <input type="radio" name="gender" value="other">Relaxing
+      </div>
+      <input type='submit' value='submit'>
+    </form>
   </body>
 </html>

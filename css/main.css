@@ -90,6 +90,25 @@
   margin-top: 25px;
   margin-bottom: 25px; }
 
+.create-blog-form {
+  height: 100%;
+  text-align: center;
+  font-family: "Verdana"; }
+
+label {
+  display: block; }
+
+input, textarea {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 80%;
+  height: 4em; }
+
+.call-to-edit {
+  font-family: "Verdana";
+  height: 1.5em;
+  margin: 20px; }
+
 .profile-header {
   display: flex;
   font-family: "Verdana";
@@ -126,8 +145,8 @@
 
 .flex-item {
   background: white;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin: auto;
   color: white;
   font-weight: bold;
