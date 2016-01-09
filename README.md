@@ -15,9 +15,9 @@ https://trailmix.firebaseapp.com/
 ```
 
 ### ToDo's
-[ ] finish all the markup
-[ ] finish all the formatting
-[ ] styling and UI
-[ ] client side js
+- [ ] finish all the markup
+- [ ] finish all the formatting
+- [ ] styling and UI
+- [ ] client side js
 
 [![ZenHub] (https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)] (https://zenhub.io)
