@@ -1,3 +1,29 @@
+.nav-bar {
+  height: 75px;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  font-family: "verdana"; }
+
+.nav-components {
+  list-style: none; }
+
+.nav-component {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.filter {
+  width: 100%;
+  height: 150px;
+  background-color: red; }
+
+.tag-icons {
+  list-style: none; }
+
+.tag-icon {
+  display: inline-block; }
+
 .post {
   height: 175px;
   background-color: gray;
