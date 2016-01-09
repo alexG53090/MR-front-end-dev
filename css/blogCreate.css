@@ -1,3 +1,20 @@
+.create-blog-form {
+  height: 100%;
+  text-align: center;
+  font-family: "Verdana"; }
 
+label {
+  display: block; }
+
+input, textarea {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 80%;
+  height: 4em; }
+
+.call-to-edit {
+  font-family: "Verdana";
+  height: 1.5em;
+  margin: 20px; }
 
 /*# sourceMappingURL=blogCreate.css.map */

@@ -90,6 +90,25 @@
   margin-top: 25px;
   margin-bottom: 25px; }
 
+.create-blog-form {
+  height: 100%;
+  text-align: center;
+  font-family: "Verdana"; }
+
+label {
+  display: block; }
+
+input, textarea {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 80%;
+  height: 4em; }
+
+.call-to-edit {
+  font-family: "Verdana";
+  height: 1.5em;
+  margin: 20px; }
+
 .profile-header {
   display: flex;
   font-family: "Verdana";
@@ -109,6 +128,36 @@
 .profile-img {
   height: 150px;
   width: 150px; }
+
+.flex-container {
+  background-color: #ededed;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.flex-item {
+  background: white;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 2px; }
+
+.profile-posts {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
