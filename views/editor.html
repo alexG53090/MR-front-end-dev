@@ -6,6 +6,7 @@
     <title>Write Post</title>
     <link rel='stylesheet' href='../css/main.css' />
     <link rel='stylesheet' href='../css/createProfile.css' />
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src='js/client.js'></script>
@@ -26,12 +27,12 @@
 
     <!-- Create a post form -->
     <form class='create-blog-form' action='/submitblog' method="POST">
-      <label>Title</label>
-      <input name='title' type='text' placeholder="Title">
-      <label>Location</label>
-      <input name='location' type='text' placeholder="location">
-      <label>Description</label>
-      <textarea name='description' rows="10" cols="50">
+      <label class='post-title'>Title</label>
+      <input name='title' type='text' placeholder="Title" class='title-input'>
+      <label class='post-location'>Location</label>
+      <input name='location' type='text' placeholder="location" class='location-input'>
+      <label class='post-description'>Description</label>
+      <textarea name='description' rows="10" cols="50" class='description-input'>
         Share your hiking experience!
       </textarea>
 
@@ -41,7 +42,7 @@
         <input type="radio" name="Relaxing" class='tag-toggle'>
       </div> -->
 
-      <input type='submit' value='submit'>
+      <input type='submit' value='submit' class='submit-button'>
     </form>
 
     <!-- Footer -->

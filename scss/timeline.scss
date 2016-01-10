@@ -6,6 +6,7 @@
   z-index: 99;
   justify-content: center;
   font-family: "verdana";
+  color:#fc9447;
 }
 .filter-components {
   display: flex;
@@ -18,7 +19,7 @@
 // Drop down menu styles
 .drop-down {
   height: 80px;
-  background-color: #ededed;
+  background-color: #bf9271;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,25 +48,44 @@
   display: none;
 }
 // Post Styling
-.time-line {
 
-}
 .post {
-  height: 175px;
+  height: 185px;
   background-color: white;
   width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "verdana";
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6em;
+  font-weight: lighter;
   // border-bottom: 2px solid black;
-
   -webkit-box-shadow: 0px 1px 13px 1px rgba(247,247,247,0.56);
   -moz-box-shadow: 0px 1px 13px 1px rgba(247,247,247,0.56);
   box-shadow: 0px 1px 13px 1px rgba(247,247,247,0.56);
-
-
+  flex-wrap: wrap;
 }
+
+.tl-user-name {
+  color: #757473;
+  font-size: .7em;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+.tl-hike-location{
+  color:#b7b3b0;
+  font-weight: lighter;
+  font-size: .7em;
+  margin-top: 110px;
+}
+
+.tl-hike-name {
+  font-weight: bolder;
+  font-size: .8em;
+  margin-bottom: 50px;
+}
+
 .filter-call {
   // margin-right:20%;
 }
@@ -74,6 +94,7 @@
   // margin-left: 20%;
 }
 .profile-img-placeholder {
+  margin-top: 20px;
   height: 90px;
   width: 90px;
 }
@@ -81,7 +102,7 @@
 // create post
 .create-post {
   border: none;
-  background-color: red;
+  background-color: #fc511d;
   border-radius: 50%;
   position: absolute;
   position: fixed;
