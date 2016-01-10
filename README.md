@@ -12,6 +12,7 @@ https://mountain-rangers.firebaseapp.com/
 3. cd into the directory
 4. npm i
 5. double click on the index.html file
+6. remember to do $ sass --watch scss:css
 ```
 
 ### ToDo's
