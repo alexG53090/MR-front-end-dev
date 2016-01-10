@@ -58,3 +58,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.hike {
+    float:left;
+    width: 32%;
+    padding-bottom: 32%; /* = width for a 1:1 aspect ratio */
+    margin:.5%;
+    background-color: #c1c1c1;
+}
