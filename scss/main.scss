@@ -25,6 +25,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+a {
+	text-decoration: none;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -49,14 +52,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.nav {
-  height: 100px;
+
+// Navigation Styling
+.nav-bar {
+  height: 75px;
   width: 100%;
-  background-color: gray;
+  background-color: #455448;
+  color: white;
+  font-family: "verdana";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-components {
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.nav-component {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 // Handmade grid
-
 .third {
   flex-direction: row;
   width: 33.3%;
@@ -66,7 +85,6 @@ table {
 }
 
 // Handmand helper classes
-
 .hidden {
   display: none;
 }
