@@ -28,6 +28,10 @@ time, mark, audio, video {
 a {
 	text-decoration: none;
 }
+a:visited {
+  text-decoration: none;
+	color: white;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -36,6 +40,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   text-align: center;
+	background-color: #dae8d6;
 }
 ol, ul {
 	list-style: none;
@@ -57,9 +62,10 @@ table {
 .nav-bar {
   height: 75px;
   width: 100%;
-  background-color: #455448;
+  background-color: #603919;
   color: white;
-  font-family: "verdana";
+  font-family: 'Amatic SC';
+	font-size: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,7 +81,7 @@ table {
   margin-right: 2%;
 }
 
-// Handmade grid
+// Grid
 .third {
   flex-direction: row;
   width: 33.3%;
@@ -84,7 +90,26 @@ table {
   width:50%;
 }
 
-// Handmand helper classes
+// Helper classes
 .hidden {
   display: none;
+}
+.active {
+	font-weight: 700;
+	color: #83f9ff;
+	text-decoration: underline;
+}
+
+// footer
+
+footer {
+	height: 120px;
+	width: 100%;
+	background-color: #603919;
+	color: #d37d3d;
+	font-family: 'Amatic SC';
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

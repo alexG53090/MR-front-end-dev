@@ -21,6 +21,7 @@ body {
 .profile-img {
   height: 150px;
   width: 150px;
+  margin-top: 30px;
 }
 
 // grid
@@ -60,9 +61,9 @@ body {
 }
 
 .hike {
-    float:left;
-    width: 32%;
-    padding-bottom: 32%; /* = width for a 1:1 aspect ratio */
-    margin:.5%;
-    background-color: #c1c1c1;
+  float:left;
+  width: 32%;
+  padding-bottom: 32%;
+  margin:.5%;
+  background-color: white;
 }
